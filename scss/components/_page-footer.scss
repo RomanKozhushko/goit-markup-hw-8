@@ -1,0 +1,178 @@
+.navigation__link {
+  display: block;
+  color: $titletextcolor;
+  text-decoration: none;
+  transition-duration: 250ms;
+}
+
+.media {
+  &__circle {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  &__circles {
+    fill: $greyboarder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  &__circle:hover,
+  &__circle:focus,
+  &__circle:active {
+    transition-duration: 250ms;
+    background-color: $accentcolor;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.insta {
+  width: 20px;
+  height: 20px;
+  fill: $primarywhitecolor;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.twiter {
+  width: 20px;
+  height: 20px;
+  fill: $primarywhitecolor;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+  fill: $primarywhitecolor;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.linkedin {
+  width: 20px;
+  height: 20px;
+  fill: $primarywhitecolor;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.color {
+  color: $primarywhitecolor;
+  padding: 0;
+}
+.footer {
+  display: flex;
+  align-items: baseline;
+  &__logosp {
+    color: $accentcolor;
+  }
+  &__color {
+    background-color: #2f303a;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px;
+  }
+  &__address {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    margin-top: 20px;
+  }
+  &__logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $primarywhitecolor;
+    text-decoration: none;
+  }
+  &__media {
+    display: inline;
+    margin-left: 70px;
+  }
+  &__contact {
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $contactcolor;
+    padding: 0;
+  }
+  &__join {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primarywhitecolor;
+    text-transform: uppercase;
+  }
+}
+
+.footer-form {
+  &__fild {
+    max-width: 570px;
+    margin-left: auto;
+  }
+  &__input-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__input-frame {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 15px 16px;
+    color: #ffffff;
+  }
+  &__icon-send {
+    width: 24px;
+    height: 24px;
+    bottom: 13px;
+    right: 28px;
+    margin-right: 0;
+  }
+  &__pres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $accentcolor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: $primarywhitecolor;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+    margin-left: 12px;
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+  }
+}
