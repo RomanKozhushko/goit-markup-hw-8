@@ -6,6 +6,10 @@
 }
 
 .media {
+  &__link {
+    margin-right: auto;
+    margin-left: auto;
+  }
   &__circle {
     width: 44px;
     height: 44px;
@@ -70,8 +74,8 @@
   padding: 0;
 }
 .footer {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
+
   &__logosp {
     color: $accentcolor;
   }
@@ -79,8 +83,8 @@
     background-color: #2f303a;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px 0px;
   }
+
   &__address {
     font-size: 14px;
     line-height: 1.14;
@@ -98,8 +102,8 @@
     text-decoration: none;
   }
   &__media {
-    display: inline;
-    margin-left: 70px;
+    margin-top: 60px;
+    // display: inline;
   }
   &__contact {
     margin-top: 9px;
@@ -125,6 +129,7 @@
   &__fild {
     max-width: 570px;
     margin-left: auto;
+    margin-top: 60px;
   }
   &__input-name {
     font-weight: 700;
@@ -135,7 +140,7 @@
     color: #ffffff;
   }
   &__input-frame {
-    width: 358px;
+    max-width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -167,10 +172,9 @@
     min-width: 200px;
     height: 50px;
     padding: 10px 29px;
-    margin-left: 12px;
+    margin-top: 20px;
   }
   &__group {
-    display: flex;
     align-items: center;
     height: 50px;
     margin-top: 20px;
