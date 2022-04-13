@@ -29,10 +29,16 @@
         </a>
 
         <nav>
-          <button type="button">
+          <button type="button" class="menu-button is-open">
             <svg width="40" height="40">
-              <use href="./images/symbol-defs+.svg#icon-menu_phone"></use>
-              <use href="/images/symbol-defs+.svg#icon-close_phone"></use>
+              <use
+                class="menu-button__cross"
+                href="/images/symbol-defs+.svg#icon-close_phone"
+              ></use>
+              <use
+                class="menu-button__menu"
+                href="./images/symbol-defs+.svg#icon-menu_phone"
+              ></use>
             </svg>
           </button>
           <ul class="navigation">
@@ -587,5 +593,6 @@
     </footer>
     <script src="./js/modal.js"></script>
     <script src="./js/modal-work.js"></script>
+    <script src=""></script>
   </body>
 </html>

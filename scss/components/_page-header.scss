@@ -145,6 +145,26 @@ body {
     color: $accentcolor;
   }
 }
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  & &__menu {
+  }
+  & &__cross {
+    display: none;
+  }
+}
+
+.menu-button.is-open .menu-button__cross {
+  display: block;
+}
+.menu-button.is-open .menu-button__menu {
+  display: none;
+}
 .contacts {
   font-size: 14px;
   line-height: 1.14;
