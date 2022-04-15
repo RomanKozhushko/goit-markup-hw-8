@@ -873,7 +873,7 @@ body {
 }
 
 .partners__box {
-  width: 210px;
+  max-width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
