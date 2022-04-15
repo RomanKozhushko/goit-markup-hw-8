@@ -1270,6 +1270,8 @@ body {
           justify-content: space-between;
   padding-left: 0px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .insta {
@@ -1338,23 +1340,20 @@ body {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  background-color: #2f303a;
+  padding: 60px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__logosp {
   color: #2196f3;
 }
 
-.footer__color {
-  background-color: #2f303a;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 0px;
+.footer__format {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer__logo {
@@ -1365,11 +1364,12 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__media {
   display: inline;
-  margin-left: 70px;
 }
 
 .footer__contact {
@@ -1389,7 +1389,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 .footer__address {
@@ -1398,11 +1397,12 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   margin-top: 20px;
+  text-align: center;
 }
 
 .footer-form__fild {
   max-width: 570px;
-  margin-left: auto;
+  margin-bottom: 20px;
 }
 
 .footer-form__input-name {
@@ -1415,7 +1415,7 @@ body {
 }
 
 .footer-form__input-frame {
-  width: 358px;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
@@ -1458,18 +1458,19 @@ body {
   min-width: 200px;
   height: 50px;
   padding: 10px 29px;
-  margin-left: 12px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-form__group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-box {
