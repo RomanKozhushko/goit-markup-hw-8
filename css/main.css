@@ -294,7 +294,7 @@ p {
 
 .container {
   margin: auto;
-  max-width: 481px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -605,14 +605,14 @@ body {
 }
 
 .activity {
-  max-width: 1170px;
+  width: 100%;
   padding-left: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .activity__item {
-  max-width: 450px;
+  width: 100%;
   position: relative;
   margin-right: 30px;
 }
@@ -1266,6 +1266,7 @@ body {
 }
 
 .media__link {
+  margin-bottom: 60px;
   width: 206px;
   height: 44px;
   display: -webkit-box;
@@ -1350,19 +1351,22 @@ body {
   padding: 60px 0px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer__logosp {
   color: #2196f3;
 }
 
-.footer__format {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
 .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -1388,6 +1392,12 @@ body {
 }
 
 .footer__join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -1404,6 +1414,7 @@ body {
   font-style: normal;
   margin-top: 20px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .footer-form__fild {
@@ -1412,6 +1423,12 @@ body {
 }
 
 .footer-form__input-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1421,7 +1438,12 @@ body {
 }
 
 .footer-form__input-frame {
-  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
@@ -1473,7 +1495,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;

@@ -29,6 +29,7 @@
   }
 
   &__link {
+    margin-bottom: 60px;
     width: 206px;
     height: 44px;
     display: flex;
@@ -86,14 +87,14 @@
     padding: 60px 0px;
     margin-left: auto;
     margin-right: auto;
+    align-items: baseline;
 
   &__logosp {
     color: $accentcolor;
   }
-  &__format {
-  align-items: baseline;
-  }
-  &__logo {
+    &__logo {
+    display: flex;
+    justify-content: center;
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -107,6 +108,7 @@
   }
   &__media {
     display: inline;
+    
   }
   &__contact {
     margin-top: 9px;
@@ -117,6 +119,8 @@
     padding: 0;
   }
   &__join {
+    display: flex;
+    justify-content: center;
     font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
@@ -132,6 +136,7 @@
     font-style: normal;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 60px;
   }
 }
 
@@ -142,6 +147,8 @@
   }
 
   &__input-name {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -151,7 +158,10 @@
   }
 
   &__input-frame {
-    width: 450px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -195,7 +205,6 @@
 
   &__group {
     align-items: center;
-    height: 50px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
