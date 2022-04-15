@@ -21,14 +21,14 @@
 // justify-content: space-between;
 
   &__item {
-    width: 450px;
+    max-width: 450px;
     margin-bottom: 30px;
   }
   &__item:last-child {
     margin-right: 0;
   }
   &__card {
-    width: 450px;
+    max-width: 450px;
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;
