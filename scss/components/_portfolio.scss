@@ -1,10 +1,12 @@
 .button-box {
   list-style: none;
-  justify-content: center;
+  // justify-content: center;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-}
+  margin-bottom: 40px;
+  margin-top: -15px;
+  }
 
 .botton-box__pres {
   font-family: inherit;
@@ -20,6 +22,7 @@
   cursor: pointer;
   padding: 6px 22px;
   margin-right: 8px;
+  margin-top: 15px;
   transition-duration: 250ms;
 
   &:focus,
@@ -59,7 +62,7 @@ img {
   margin-bottom: 0px;
 }
 .board-portfilio {
-  max-width: 1170px;
+  max-width: 481px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -69,7 +72,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 294px;
+  height: 100%;
   transform: translatey(100%);
   transition: transform 250ms ease;
   background: rgba(33, 150, 243, 0.9);
@@ -108,14 +111,14 @@ img {
   flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
-  margin-top: calc(-1 * $cardsetmargin);
-  margin-left: calc(-1 * $cardsetmargin);
 
   & > li {
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: $cardsetmargin;
-    margin-top: $cardsetmargin;
+    flex-basis: calc(100% - 30px);
     transition-duration: 250ms;
+    margin-bottom: 30px;
+  }
+  & >li:last-child{
+    margin-bottom: 0;
   }
   &__prof-project {
     font-family: Roboto;
