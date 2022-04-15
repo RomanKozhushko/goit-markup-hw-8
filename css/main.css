@@ -729,7 +729,7 @@ body {
 }
 
 .team__member {
-  width: 450px;
+  max-width: 450px;
   height: 622px;
   margin-bottom: 30px;
   background-color: #ffffff;
@@ -763,6 +763,9 @@ body {
 }
 
 .team__link--circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 44px;
   height: 44px;
   -webkit-box-sizing: border-box;
@@ -776,9 +779,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   color: #afb1b8;
 }
 
