@@ -1,0 +1,47 @@
+
+.advanсes__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $fonecolorcotrast;
+  margin-top: 10px;
+}
+
+.advances {
+   background-color: $primarywhitecolor;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  &__box {
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 270px;
+    height: 251px;
+    margin-right: 30px;
+  }
+  &__item:last-child {
+    margin-right: 0;
+  }
+  &__card {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  &__name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: $titletextcolor;
+    margin-top: 30px;
+  }
+}
