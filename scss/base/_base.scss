@@ -14,7 +14,6 @@ p {
   padding: 0;
 }
 .navigation__list,
-.contacts,
 .navigation__link,
 .contacts__link,
 .button-box {
@@ -53,7 +52,7 @@ p {
 }
 
 body {
-  max-width: 481px;
+  max-width: 480px;
   margin: 0px auto;
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
@@ -62,11 +61,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
-@media  (min-width: 482px){
+@media  (min-width: 481px){
 body{
-max-width: 678px;
+max-width: 768px;
 }}
-@media (min-width: 679px) {
+@media (min-width: 769px) {
   body{ max-width: 1600px;
 }}
 
