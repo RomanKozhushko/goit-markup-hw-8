@@ -5,9 +5,11 @@
   letter-spacing: 0.03em;
   color: $fonecolorcotrast;
   margin-top: 10px;
+  
 }
 
 .advances {
+  display: block;
    background-color: $primarywhitecolor;
     padding-left: 15px;
     padding-right: 15px;
@@ -15,7 +17,7 @@
     margin-right: auto;
   
   &__box {
-       
+       max-width: 481px;
     
   }
 // justify-content: space-between;
