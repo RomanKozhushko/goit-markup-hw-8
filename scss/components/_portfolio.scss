@@ -113,7 +113,8 @@ img {
   padding: 0px;
 
   & > li {
-    flex-basis: calc(100% - 30px);
+    width: 100%;
+    flex-basis: calc(100%);
     transition-duration: 250ms;
     margin-bottom: 30px;
   }
