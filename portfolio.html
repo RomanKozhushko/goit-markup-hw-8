@@ -14,6 +14,113 @@
   </head>
 
   <body>
+     <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="./index.html">
+          <span class="header__logo--sp">Web</span>Studio
+        </a>
+        <button
+          class="menu-toggle js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-menu-button
+        >
+          <svg
+            width="40"
+            height="40"
+            fill="currentColor"
+            aria-label="Преключатель мобильного меню"
+          >
+            <use
+              class="navigation__button--menu"
+              href="./images/sprite.svg#icon-menu_phone"
+            ></use>
+          </svg>
+        </button>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__distance">
+              <a href="./index.html" class="navigation__link">Студия</a>
+            </li>
+            <li class="navigation__distance">
+              <a
+                href="./portfolio.html"
+                class="navigation__link navigation__link--active"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation__distance">
+              <a href="#contacts" class="navigation__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts__link"
+              ><svg class="contacts__envelope">
+                <use href="./images/sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__phone">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 117</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="menu-container js-menu-container id="mobile-menu">
+          <button class="menu-toggle js-close-menu navigation__button">
+             <svg
+            width="40"
+            height="40"
+            fill="currentColor"
+            aria-label="Преключатель мобильного меню"
+          >
+            <use
+              class="navigation__button--cross"
+              href="./images/sprite.svg#icon-menu_cross"
+            ></use>
+          </button>
+          <ul class="mobile__navigation-list">
+            <li class="mobile__navigation-distance">
+              <a href="./index.html" class="mobile__navigation-link">Студия</a>
+            </li>
+            <li class="mobile__navigation-distance">
+              <a
+                href="./portfolio.html"
+                class="mobile__navigation-link mobile__navigation-link--active"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mobile__navigation-distance">
+              <a href="#contacts" class="mobile__navigation-link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="mobile__contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="mobile__contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="mobile__contacts-link">
+              +38 096 111 11 117</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile__social-media">
+          <li><a href="./index.html" class="mobile__social-link">Instagram</a></li>
+          <li><a href="./index.html" class="mobile__social-link">Twitter</a></li>
+          <li><a href="./index.html" class="mobile__social-link">Facebook</a></li>
+          <li><a href="./index.html" class="mobile__social-link--none-decor">LinkedIn</a></li>
+        </ul>
+      </div>
+    </header>
     <!-- Переваги -->
     <main class="section">
       <div class="container">
@@ -308,6 +415,7 @@
         </div>
       </form>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
     <!-- Підвал -->
   </body>
 </html>
