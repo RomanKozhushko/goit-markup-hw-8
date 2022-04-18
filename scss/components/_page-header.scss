@@ -246,6 +246,12 @@ margin-bottom: 32px;
   display: block;
   margin-bottom: 32px;
   text-decoration: none;
+  color: $fonecolorcotrast;
+}
+.mobile__contacts-link:focus,
+.mobile__contacts-link:active,
+.mobile__contacts-link:hover{
+  color: $accentcolor;
 }
 .mobile__contacts{
   margin-top: auto;
