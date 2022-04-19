@@ -663,6 +663,12 @@ body {
   margin-left: auto;
 }
 
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle:active {
+  color: #2196f3;
+}
+
 @media (min-width: 481px) {
   .menu-toggle {
     display: none;

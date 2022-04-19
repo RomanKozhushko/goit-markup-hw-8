@@ -232,6 +232,11 @@
   outline: none;
   margin-left: auto;
 }
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle:active{
+  color: $accentcolor;
+}
   @media (min-width: 481px) 
   {.menu-toggle {
     display: none;
