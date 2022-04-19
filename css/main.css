@@ -280,7 +280,6 @@ p {
   padding: 0;
 }
 
-.navigation__list,
 .navigation__link,
 .contacts__link,
 .button-box {
@@ -393,14 +392,6 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__distance {
-  margin-right: 50px;
-}
-
-.navigation__distance:last-child {
-  margin-right: 0px;
-}
-
 .navigation__link {
   display: block;
   color: #000000;
@@ -434,14 +425,19 @@ body {
 .navigation {
   margin-right: auto;
   margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  width: 294px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navigation.navigation__link {

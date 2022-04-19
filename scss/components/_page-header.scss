@@ -1,9 +1,10 @@
 .navigation__distance {
-  margin-right: 50px;
+    
+  // margin-right: 50px;
 
-  &:last-child {
-    margin-right: 0px;
-  }
+  // &:last-child {
+  //   margin-right: 0px;
+  // }
 }
 .navigation__link {
   display: block;
@@ -36,13 +37,15 @@
 .navigation {
   margin-right: auto;
   margin-left: auto; 
-  margin-top: auto;
-  margin-bottom: auto;
+
 
   &__list{
+  display: flex;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  width: 294px;
+  justify-content: space-between;
   }
   
   
