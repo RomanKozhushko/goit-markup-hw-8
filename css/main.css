@@ -572,7 +572,7 @@ body {
 
 @media (min-width: 769px) {
   .header__container {
-    max-width: 1200px;
+    max-width: 769px;
   }
   .contacts {
     display: inline;
@@ -1006,7 +1006,7 @@ body {
 }
 
 .team__link--member {
-  width: 100%;
+  width: 206px;
   height: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
