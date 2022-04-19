@@ -9,7 +9,8 @@
 }
 
 .advances {
-  display: block;
+  display: flex;
+  justify-content: center;
    background-color: $primarywhitecolor;
     padding-left: 15px;
     padding-right: 15px;
@@ -17,8 +18,7 @@
     margin-right: auto;
   
   &__box {
-       max-width: 480px;
-    
+
   }
 // justify-content: space-between;
 
@@ -51,11 +51,17 @@
     margin-top: 30px;
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px){
+  .advances__box{
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 769px) {
   
   .advances__box {
-    max-width: 768px;
+    max-width: 769px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;

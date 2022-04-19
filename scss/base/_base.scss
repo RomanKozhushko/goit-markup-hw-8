@@ -26,6 +26,17 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    max-width: 769px;
+  }
+}
 
 .title {
   font-weight: bold;
@@ -51,7 +62,6 @@ p {
 }
 
 body {
-  max-width: 480px;
   margin: 0px auto;
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
@@ -60,13 +70,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
-@media  (min-width: 481px){
-body{
-max-width: 768px;
-}}
-@media (min-width: 769px) {
-  body{ max-width: 1600px;
-}}
+
 
 .visually-hidden {
   position: absolute;

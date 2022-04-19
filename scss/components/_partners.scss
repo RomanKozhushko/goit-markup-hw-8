@@ -1,5 +1,4 @@
 .partners {
-    width: 100%;
     justify-content: center;
     display: flex;
     
@@ -17,7 +16,6 @@
         transition-duration: 250ms;
     }
     &__card-set{
-        width: 104%;
         display: flex;
         flex-wrap: wrap;
         margin: 0px;
@@ -44,7 +42,7 @@
     }
 }
 
-    @media (min-width: 481px){
+    @media (min-width: 769px){
                 
         .partners__card-set>li {
             flex-basis: calc(100% / 3 - 30px);

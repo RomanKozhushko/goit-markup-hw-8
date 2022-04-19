@@ -7,7 +7,7 @@
     &__list{
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        // width: 100%;
     }
     &__prof {
         font-size: 16px;
@@ -42,7 +42,7 @@
     padding: 30px 32px;
 }
 .team__link--member {
-    max-width: 206px;
+    width: 100%;
     height: 44px;
     display: flex;
     justify-content: space-between;
@@ -90,7 +90,6 @@
     align-items: center;
     display: flex;
 }
-
 .twiter {
     width: 20px;
     height: 20px;
@@ -99,7 +98,6 @@
     align-items: center;
     display: flex;
 }
-
 .facebook {
     width: 20px;
     height: 20px;
@@ -108,7 +106,6 @@
     align-items: center;
     display: flex;
 }
-
 .linkedin {
     width: 20px;
     height: 20px;
@@ -117,15 +114,24 @@
     align-items: center;
     display: flex;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px){
+    .team__list{
+        max-width: 480px;
+    }
+    .team {
+
+    }   
+}
+@media screen and (min-width: 769px) {
     .team__list {
-        width: 104% ;
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 0px;
-        padding: 0px;
-        margin-top: calc(-1 * 30px);
-        margin-left: calc(-1 * 30px);
+    max-width: 769px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: calc(-1 * 30px);
+    margin-left: calc(-1 * 30px);
     }
     .team__list>.team__member {
         flex-basis: calc(100% / 2 - 30px);
@@ -133,6 +139,8 @@
         margin-top: 30px;
     }
     .team__member{
+        width: 354px;
+        margin-right: 0;
         margin-bottom: 0;
 }
 }
