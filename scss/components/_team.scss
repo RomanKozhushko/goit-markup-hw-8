@@ -119,7 +119,7 @@
 }
 @media screen and (min-width: 481px) {
     .team__list {
-        width: 103% ;
+        width: 104% ;
         display: flex;
         flex-wrap: wrap;
         margin-right: 0px;
@@ -134,8 +134,5 @@
     }
     .team__member{
         margin-bottom: 0;
-}
-    .team__member:nth-child(2n){
-         margin-right: -15px;
 }
 }

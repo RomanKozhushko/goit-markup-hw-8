@@ -1105,7 +1105,7 @@ body {
 
 @media screen and (min-width: 481px) {
   .team__list {
-    width: 103%;
+    width: 104%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1124,9 +1124,6 @@ body {
   }
   .team__member {
     margin-bottom: 0;
-  }
-  .team__member:nth-child(2n) {
-    margin-right: -15px;
   }
 }
 
