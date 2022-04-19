@@ -51,3 +51,23 @@
     margin-top: 30px;
   }
 }
+@media screen and (min-width: 481px) {
+  
+  .advances__box {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    margin-top: calc(-1 * 30px);
+    margin-left: calc(-1 * 30px);
+  }
+  .advances__item{
+    max-width: 354px;
+  }
+  .advances__box>.advances__item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
