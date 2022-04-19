@@ -42,7 +42,7 @@
     padding: 30px 32px;
 }
 .team__link--member {
-    width: 206px;
+    max-width: 206px;
     height: 44px;
     display: flex;
     justify-content: space-between;
@@ -118,17 +118,15 @@
     display: flex;
 }
 @media screen and (min-width: 481px) {
-
     .team__list {
-        width: 104% ;
+        width: 103% ;
         display: flex;
         flex-wrap: wrap;
-        margin: 0px;
+        margin-right: 0px;
         padding: 0px;
         margin-top: calc(-1 * 30px);
         margin-left: calc(-1 * 30px);
     }
-
     .team__list>.team__member {
         flex-basis: calc(100% / 2 - 30px);
         margin-left: 30px;
@@ -136,5 +134,8 @@
     }
     .team__member{
         margin-bottom: 0;
-    }
+}
+    .team__member:nth-child(2n){
+         margin-right: -15px;
+}
 }

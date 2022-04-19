@@ -4,7 +4,7 @@
     display: flex;
     
     &__box {
-        max-width: 210px;
+        max-width: 226px;
         height: 92px;
         border: 1px solid $greyboarder;
         border-radius: 4px;
@@ -17,7 +17,7 @@
         transition-duration: 250ms;
     }
     &__card-set{
-        width: 109%;
+        width: 104%;
         display: flex;
         flex-wrap: wrap;
         margin: 0px;
@@ -42,7 +42,16 @@
         color: $accentcolor;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+}
 
+    @media (min-width: 481px){
+                
+        .partners__card-set>li {
+            flex-basis: calc(100% / 3 - 30px);
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+}
     // & li {
     //     margin-right: 30px;
     // }
@@ -50,7 +59,6 @@
     // & li:nth-last-child {
     //     margin-right: 0;
     // }
-}
 
 .partners__img {
     fill: currentColor;
