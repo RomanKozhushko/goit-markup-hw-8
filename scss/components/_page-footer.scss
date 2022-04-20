@@ -12,14 +12,12 @@
     align-items: center;
     display: flex;
   }
-
   &__circles {
     fill: $greyboarder;
     justify-content: center;
     align-items: center;
     display: flex;
   }
-
   &__circle:hover,
   &__circle:focus,
   &__circle:active {
@@ -27,7 +25,6 @@
     background-color: $accentcolor;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-
   &__link {
     margin-bottom: 60px;
     width: 206px;
@@ -49,7 +46,6 @@
   align-items: center;
   display: flex;
 }
-
 .twiter {
   width: 20px;
   height: 20px;
@@ -58,7 +54,6 @@
   align-items: center;
   display: flex;
 }
-
 .facebook {
   width: 20px;
   height: 20px;
@@ -67,7 +62,6 @@
   align-items: center;
   display: flex;
 }
-
 .linkedin {
   width: 20px;
   height: 20px;
@@ -76,12 +70,10 @@
   align-items: center;
   display: flex;
 }
-
 .color {
   color: $primarywhitecolor;
   padding: 0;
 }
-
 .footer {
    background-color: #2f303a;
     padding: 60px 0px;
@@ -104,13 +96,11 @@
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-
   }
   &__media {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    
   }
   &__contact {
     margin-top: 9px;
@@ -172,11 +162,7 @@
     background-color: transparent;
     padding: 15px 16px;
     color: #ffffff;
-    
-    
-
   }
-
   &__icon-send {
     width: 24px;
     height: 24px;
@@ -184,7 +170,6 @@
     right: 28px;
     margin-right: 0;
   }
-
   &__pres {
     display: flex;
     justify-content: space-between;
@@ -204,7 +189,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   &__group {
     align-items: center;
     margin-top: 20px;
@@ -212,6 +196,7 @@
     margin-right: auto;
   }
 }
+
 @media (min-width: 768px) {
   .footer__tablet {
     display: flex;
@@ -230,14 +215,12 @@
     margin-left: auto;
     margin-right: auto;
     align-items: baseline;
- 
   }
   .footer__tablet{
     margin: 0;
   }
   .footer__media{
     margin-left: 70px;
-
   }
   .footer-form__fild{
     margin-left: auto;
@@ -249,12 +232,18 @@
   }
   .footer-form__group{
     display: flex;
-}
+  }
   .footer-form__pres{
     margin-top: 0;
     margin-left: 12px;
   }
   .footer-form__input-name{
     justify-content: left;
+  }
+  .footer__address {
+    margin-bottom: unset;
+  }
+  .media__link{
+    margin-bottom: unset;
   }
 }

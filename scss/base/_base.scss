@@ -31,19 +31,16 @@ p {
     max-width: 480px;
   }
 }
-
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
- 
-}
+ }
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
 }
-
 .title {
   font-weight: bold;
   margin-top: 0px;
@@ -56,12 +53,10 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
-
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
  
-
   &:nth-child(3) {
     padding-top: 0;
   }
@@ -76,8 +71,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
-
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -90,7 +83,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .pres {
   list-style: none;
   display: block;
