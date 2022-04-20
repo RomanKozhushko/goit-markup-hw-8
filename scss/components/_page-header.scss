@@ -1,10 +1,10 @@
 .navigation__distance {
     
-  // margin-right: 50px;
+  margin-right: 50px;
 
-  // &:last-child {
-  //   margin-right: 0px;
-  // }
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 .navigation__link {
   display: block;
@@ -107,7 +107,6 @@
 //   }
 // }
 .contacts {
-  display: flex;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -165,10 +164,9 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .header__container{
-    max-width: 769px;
-
+    max-width: 768px;
   }
   .contacts {
     display: inline;
@@ -176,17 +174,31 @@
     margin-left: auto;
     padding: 21px 0px;
   }
- }
-@media (min-width: 769px) {
-  
   .contacts__link{
     padding: 0;
     margin-bottom: 10px;
   }
-
   .contacts li:last-child {
     margin-left: 0;
     margin-bottom: -15px;
+  }
+}
+@media (min-width: 1200px) {
+    .header__container {
+    max-width: 1200px;
+  }
+    .contacts {
+    display: flex;
+    margin-right: 15px;
+    margin-left: auto;
+    padding: 32px 0px;
+  }
+    .contacts__link {
+    padding: 0;
+    margin-bottom: 0;
+  }
+    .contacts li:last-child {
+    margin-left: 30px;
   }
 }
 .navigation__button{
@@ -196,7 +208,6 @@
   border: none;
   background-color: transparent;
   margin-bottom: auto;
-
 }
 .menu-container {
   position: fixed;
@@ -212,7 +223,6 @@
 }
 .menu-container.is-open{
   transform: translateX(0);
-
 }
 .menu-container .menu-toggle {
   position: absolute;
@@ -220,7 +230,6 @@
   right: 16px;
   color: #fff;
 }
-
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -241,20 +250,18 @@
 .menu-toggle:active{
   color: $accentcolor;
 }
-  @media (min-width: 769px) 
+  @media (min-width: 768px) 
   {.menu-toggle {
     display: none;
   }}
 
-  @media (max-width: 768px){
+  @media (max-width: 767px){
     .contacts,
     .navigation{
       display: none;
-      
-  }
-  }
- 
-.navigation__button--cross{
+    }
+}
+ .navigation__button--cross{
   color:$notitletextcolor;
 }
 .navigation__button--cross:hover,
@@ -262,7 +269,6 @@
 .navigation__button--cross:focus{
   color: $accentcolor;
 }
-
 .mobile__navigation-link{
 display: block;
 text-decoration: none;
@@ -272,14 +278,11 @@ letter-spacing: 0.02em;
 color: $notitletextcolor;
 margin-bottom: 32px;
 }
-
 .mobile__navigation-link:focus,
 .mobile__navigation-link:active,
 .mobile__navigation-link:hover{
   color: $accentcolor;
-  
 }
-
 .mobile__contacts-link{
   display: block;
   margin-bottom: 32px;
@@ -316,5 +319,4 @@ margin-bottom: 32px;
     padding: 0 10px;
     text-decoration: none;
     color: $accentcolor;
-    
 }

@@ -1,21 +1,18 @@
 .activity {
-    // display: flex;
+    display: flex;
     width: 100%;
     padding-left: 0px;
     margin-left: auto;
     margin-right: auto;
-
 
     &__item {
         width: 100%;
         position: relative;
         margin-right: 30px;
     }
-
     &__item:last-child {
         margin-right: 0;
     }
-
     &__name {
         text-transform: uppercase;
         font-weight: bold;
@@ -26,7 +23,6 @@
         text-transform: uppercase;
         color: #ffffff;
     }
-
     &__box {
         position: absolute;
         bottom: 0;
