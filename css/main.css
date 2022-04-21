@@ -402,9 +402,9 @@ body {
     position: unset;
     width: unset;
     height: unset;
-    margin: unset;
+    margin-bottom: unset;
     border: unset;
-    padding: unset;
+    padding-bottom: 60px;
     white-space: unset;
     -webkit-clip-path: unset;
             clip-path: unset;
@@ -822,9 +822,9 @@ body {
   margin-top: 0px;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
   .hero {
-    max-width: 481px;
+    max-width: 480px;
   }
   .hero__name {
     max-width: 380px;
@@ -838,7 +838,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 769px;
+    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_tablet.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_tablet.jpg);
   }
@@ -847,15 +847,15 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .hero .modal {
+  .modal {
     max-width: 450px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
     padding: 200px 0;
-    max-width: 1200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
   }
