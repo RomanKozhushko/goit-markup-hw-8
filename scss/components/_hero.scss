@@ -35,20 +35,8 @@
         margin-top: 0px;
     }
 }
+
 @media screen and (min-width: 480px) {
-    .hero {
-        max-width: 480px;
-
-        &__name{
-        max-width: 380px;
-        }
-    }
-      .modal{
-          max-width: 450px;
-        }
-    }
-
-@media screen and (min-width: 768px) {
     .hero {
         max-width: 768px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -74,7 +62,7 @@
         max-width: 450px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 769px) {
     .hero {
         max-width: 1600px;
         padding: 200px 0;
