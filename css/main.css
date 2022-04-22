@@ -834,10 +834,8 @@ body {
   }
   .hero__name {
     max-width: 380px;
-    margin-left: auto;
-    margin-right: auto;
   }
-  .hero .modal {
+  .modal {
     max-width: 450px;
   }
 }
