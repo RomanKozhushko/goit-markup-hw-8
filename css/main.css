@@ -877,6 +877,9 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
   }
+  .modal {
+    top: 30%;
+  }
 }
 
 .hero__backdrop {
@@ -1418,6 +1421,12 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 769px) {
+  .modal {
+    top: 65%;
+  }
 }
 
 .modal__button-new {
