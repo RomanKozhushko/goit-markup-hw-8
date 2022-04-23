@@ -151,7 +151,7 @@
 
   &__input-frame {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
@@ -208,7 +208,11 @@
   .footer__media{
     margin: 0;
   }
+    .footer-form__input-frame {
+      width: 450px;
+    }
 }
+
 @media  (min-width: 1200px) {
   .footer__box {
     display: flex;

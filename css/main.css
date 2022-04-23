@@ -602,8 +602,6 @@ body {
     max-width: 768px;
   }
   .contacts {
-    display: inline;
-    margin-right: 15px;
     margin-left: auto;
     padding: 21px 0px;
   }
@@ -729,6 +727,20 @@ body {
   color: #2196f3;
 }
 
+.mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .mobile__navigation-link {
   display: block;
   text-decoration: none;
@@ -745,10 +757,23 @@ body {
   color: #2196f3;
 }
 
-.mobile__contacts-link {
+.mobile__contacts-link--phone {
   display: block;
   margin-bottom: 32px;
   text-decoration: none;
+  font-size: 34px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.mobile__contacts-link--mail {
+  display: block;
+  margin-bottom: 64px;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
@@ -759,6 +784,7 @@ body {
 }
 
 .mobile__contacts {
+  display: block;
   margin-top: auto;
 }
 
@@ -773,6 +799,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-left: -10px;
+  margin-top: auto;
 }
 
 .mobile__social-link {
@@ -996,6 +1023,12 @@ body {
 }
 
 .advances__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
@@ -1027,6 +1060,11 @@ body {
     margin-top: calc(-1 * 30px);
     margin-left: calc(-1 * 30px);
   }
+  .advances__name {
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
   .advances__item {
     max-width: 354px;
   }
@@ -1044,6 +1082,11 @@ body {
   }
   .advances__item {
     max-width: 270px;
+  }
+  .advances__name {
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
   }
 }
 
@@ -1425,7 +1468,7 @@ body {
 
 @media screen and (min-width: 769px) {
   .modal {
-    top: 65%;
+    top: 60%;
   }
 }
 
@@ -1855,7 +1898,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -1929,6 +1972,9 @@ body {
   }
   .footer__media {
     margin: 0;
+  }
+  .footer-form__input-frame {
+    width: 450px;
   }
 }
 
