@@ -14,7 +14,7 @@
   </head>
 
   <body>
-     <header class="header">
+    <header class="header">
       <div class="container header__container">
         <a class="header__logo" href="./index.html">
           <span class="header__logo--sp">Web</span>Studio
@@ -38,7 +38,8 @@
             ></use>
           </svg>
         </button>
-        <nav class="navigation navigation__list">
+        <nav class="navigation">
+          <ul class="navigation__list">
             <li class="navigation__distance">
               <a href="./index.html" class="navigation__link">Студия</a>
             </li>
@@ -52,6 +53,7 @@
             <li class="navigation__distance">
               <a href="#contacts" class="navigation__link">Контакты</a>
             </li>
+          </ul>
         </nav>
         <ul class="contacts">
           <li>
@@ -71,9 +73,9 @@
           </li>
         </ul>
       </div>
-      <div class="menu-container js-menu-container id="mobile-menu">
-          <button class="menu-toggle js-close-menu navigation__button">
-             <svg
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu navigation__button">
+          <svg
             width="40"
             height="40"
             fill="currentColor"
@@ -83,25 +85,26 @@
               class="navigation__button--cross"
               href="./images/sprite.svg#icon-menu_cross"
             ></use>
-          </button>
-          <ul class="mobile__navigation-list">
-            <li class="mobile__navigation-distance">
-              <a href="./index.html" class="mobile__navigation-link">Студия</a>
-            </li>
-            <li class="mobile__navigation-distance">
-              <a
-                href="./portfolio.html"
-                class="mobile__navigation-link mobile__navigation-link--active"
-                >Портфолио</a
-              >
-            </li>
-            <li class="mobile__navigation-distance">
-              <a href="#contacts" class="mobile__navigation-link">Контакты</a>
-            </li>
-          </ul>
-          <ul class="mobile__contacts">
-            <li>
-              <a href="mailto:info@devstudio.com" class="mobile__contacts-link"
+          </svg>
+        </button>
+        <ul class="mobile__navigation-list">
+          <li class="mobile__navigation-distance">
+            <a href="./index.html" class="mobile__navigation-link">Студия</a>
+          </li>
+          <li class="mobile__navigation-distance">
+            <a
+              href="./portfolio.html"
+              class="mobile__navigation-link mobile__navigation-link--active"
+              >Портфолио</a
+            >
+          </li>
+          <li class="mobile__navigation-distance">
+            <a href="#contacts" class="mobile__navigation-link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="mobile__contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mobile__contacts-link"
               >info@devstudio.com</a
             >
           </li>
@@ -112,10 +115,20 @@
           </li>
         </ul>
         <ul class="mobile__social-media">
-          <li><a href="./index.html" class="mobile__social-link">Instagram</a></li>
-          <li><a href="./index.html" class="mobile__social-link">Twitter</a></li>
-          <li><a href="./index.html" class="mobile__social-link">Facebook</a></li>
-          <li><a href="./index.html" class="mobile__social-link--none-decor">LinkedIn</a></li>
+          <li>
+            <a href="./index.html" class="mobile__social-link">Instagram</a>
+          </li>
+          <li>
+            <a href="./index.html" class="mobile__social-link">Twitter</a>
+          </li>
+          <li>
+            <a href="./index.html" class="mobile__social-link">Facebook</a>
+          </li>
+          <li>
+            <a href="./index.html" class="mobile__social-link--none-decor"
+              >LinkedIn</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -149,7 +162,10 @@
             <a class="card-set__item" href="">
               <div>
                 <img
-                  srcset="./images/portfolio/technokriack.jpg 1x, ./images/portfolio/technokriack@2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio/technokriack.jpg    1x,
+                    ./images/portfolio/technokriack@2x.jpg 2x
+                  "
                   src="./images/portfolio/technokriack.jpg"
                   alt="Технокряк"
                   width="370"
@@ -172,7 +188,10 @@
             <a class="card-set__item" href="">
               <div>
                 <img
-                  srcset="./images/portfolio/sportstars.jpg 1x, ./images/portfolio/sportstars@2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio/sportstars.jpg    1x,
+                    ./images/portfolio/sportstars@2x.jpg 2x
+                  "
                   src="./images/portfolio/sportstars.jpg"
                   alt="poster New Orlean"
                 />
@@ -193,9 +212,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/seafood.jpg 1x, ./images/portfolio/seafood@2x.jpg 2x"
-                src="./images/portfolio/seafood.jpg" alt="Seafood" />
+                <img
+                  srcset="
+                    ./images/portfolio/seafood.jpg    1x,
+                    ./images/portfolio/seafood@2x.jpg 2x
+                  "
+                  src="./images/portfolio/seafood.jpg"
+                  alt="Seafood"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -213,9 +237,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/headphone.jpg 1x, ./images/portfolio/headphone@2x.jpg 2x"
-                src="./images/portfolio/headphone.jpg" alt="headphone" />
+                <img
+                  srcset="
+                    ./images/portfolio/headphone.jpg    1x,
+                    ./images/portfolio/headphone@2x.jpg 2x
+                  "
+                  src="./images/portfolio/headphone.jpg"
+                  alt="headphone"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -233,9 +262,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/boxes.jpg 1x, ./images/portfolio/boxes@2x.jpg 2x"
-                src="./images/portfolio/boxes.jpg" alt="boxes" />
+                <img
+                  srcset="
+                    ./images/portfolio/boxes.jpg    1x,
+                    ./images/portfolio/boxes@2x.jpg 2x
+                  "
+                  src="./images/portfolio/boxes.jpg"
+                  alt="boxes"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -253,9 +287,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/monitor.jpg 1x, ./images/portfolio/monitor@2x.jpg 2x "
-                src="./images/portfolio/monitor.jpg" alt="monitor" />
+                <img
+                  srcset="
+                    ./images/portfolio/monitor.jpg    1x,
+                    ./images/portfolio/monitor@2x.jpg 2x
+                  "
+                  src="./images/portfolio/monitor.jpg"
+                  alt="monitor"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -273,9 +312,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/megazine.jpg 1x, ./images/portfolio/megazine@2x.jpg 2x"
-                src="./images/portfolio/megazine.jpg" alt="megazine" />
+                <img
+                  srcset="
+                    ./images/portfolio/megazine.jpg    1x,
+                    ./images/portfolio/megazine@2x.jpg 2x
+                  "
+                  src="./images/portfolio/megazine.jpg"
+                  alt="megazine"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -293,9 +337,14 @@
           <li>
             <a class="card-set__item" href=""
               ><div>
-                <img 
-                srcset="./images/portfolio/lab.jpg 1x, ./images/portfolio/lab@2x.jpg 2x"
-                src="./images/portfolio/lab.jpg" alt="lab" />
+                <img
+                  srcset="
+                    ./images/portfolio/lab.jpg    1x,
+                    ./images/portfolio/lab@2x.jpg 2x
+                  "
+                  src="./images/portfolio/lab.jpg"
+                  alt="lab"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -315,8 +364,13 @@
             <a class="card-set__item" href="">
               <div>
                 <img
-                srcset="./images/portfolio/laptop.jpg 1x, ./images/portfolio/laptop@2x.jpg 2x" 
-                src="./images/portfolio/laptop.jpg" alt="laptop" />
+                  srcset="
+                    ./images/portfolio/laptop.jpg    1x,
+                    ./images/portfolio/laptop@2x.jpg 2x
+                  "
+                  src="./images/portfolio/laptop.jpg"
+                  alt="laptop"
+                />
                 <div class="item__overlay">
                   <p>
                     Технокряк это современная площадка распространения
@@ -335,100 +389,102 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer__box ">
+      <div class="container footer__box">
         <div class="footer__tablet">
           <div class="footer__content">
-          <a class="footer__logo" href="./index.html">
-            <span class="footer__logosp">Web</span>Studio
-          </a>
-          <ul class="footer__address" id="contacts">
-            <li>
-              <a
-                class="navigation__link color"
-                href="https://goo.gl/maps/RnuvEtVCAa1U8o1WA"
-                target="_blank"
-              >
-                г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="footer__contact navigation__link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="footer__contact navigation__link"
-                >+38 096 111 11 117</a
-              >
-            </li>
-          </ul>
+            <a class="footer__logo" href="./index.html">
+              <span class="footer__logosp">Web</span>Studio
+            </a>
+            <ul class="footer__address" id="contacts">
+              <li>
+                <a
+                  class="navigation__link color"
+                  href="https://goo.gl/maps/RnuvEtVCAa1U8o1WA"
+                  target="_blank"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="footer__contact navigation__link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="tel:+380961111111"
+                  class="footer__contact navigation__link"
+                  >+38 096 111 11 117</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__media">
+            <strong class="footer__join">присоединяйтесь</strong>
+            <ul class="media__link">
+              <li>
+                <div class="media__circles">
+                  <a class="media__circle" href="">
+                    <svg class="insta">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="media__circles">
+                  <a class="media__circle" href="">
+                    <svg class="twiter">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="media__circles">
+                  <a class="media__circle" href="">
+                    <svg class="facebook">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="media__circles">
+                  <a class="media__circle" href="">
+                    <svg class="linkedin">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="footer__media">
-          <strong class="footer__join">присоединяйтесь</strong>
-          <ul class="media__link">
-            <li>
-              <div class="media__circles">
-                <a class="media__circle" href="">
-                  <svg class="insta">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="media__circles">
-                <a class="media__circle" href="">
-                  <svg class="twiter">
-                    <use href="./images/sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="media__circles">
-                <a class="media__circle" href="">
-                  <svg class="facebook">
-                    <use href="./images/sprite.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="media__circles">
-                <a class="media__circle" href="">
-                  <svg class="linkedin">
-                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <form class="footer-form__fild">
-        <label class="footer-form__input-name" for="e-mail"
-          >Подпишитесь на рассылку</label
-        >
-        <div class="footer-form__group">
-          <input
-            class="footer-form__input-frame"
-            type="email"
-            name="e-mail"
-            id="e-mail"
-            placeholder="email@office.com"
-          />
-          <button type="submit" class="footer-form__pres pres">
-            Подписаться
-            <img
-              class="footer-form__icon-send"
-              src="./images/SVG/icon_send.svg"
-              alt="send"
+        <form class="footer-form__fild">
+          <label class="footer-form__input-name" for="e-mail"
+            >Подпишитесь на рассылку</label
+          >
+          <div class="footer-form__group">
+            <input
+              class="footer-form__input-frame"
+              type="email"
+              name="e-mail"
+              id="e-mail"
+              placeholder="email@office.com"
             />
-          </button>
-        </div>
-      </form>
+            <button type="submit" class="footer-form__pres pres">
+              Подписаться
+              <img
+                class="footer-form__icon-send"
+                src="./images/SVG/icon_send.svg"
+                alt="send"
+              />
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/mobile-menu.js"></script>
