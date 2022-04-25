@@ -821,6 +821,8 @@ body {
   margin-right: auto;
   padding-top: 118px;
   padding-bottom: 118px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_phone.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_phone.jpg);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -1035,9 +1037,9 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .advances__box {
-    max-width: 769px;
+    max-width: 768px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
