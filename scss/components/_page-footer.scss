@@ -214,6 +214,13 @@
 }
 
 @media  (min-width: 1200px) {
+  .footer__logo{
+    justify-content: unset;
+  }
+  .footer__join{
+    justify-content: unset;
+  }
+
   .footer__box {
     display: flex;
     margin-left: auto;
@@ -246,6 +253,7 @@
   }
   .footer__address {
     margin-bottom: unset;
+    text-align: unset;
   }
   .media__link{
     margin-bottom: unset;

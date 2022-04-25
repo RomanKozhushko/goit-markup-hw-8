@@ -1,5 +1,5 @@
 * {
-  list-style: none;
+  
   box-sizing: border-box;
 }
 h1,
@@ -12,6 +12,7 @@ ul,
 p {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 .navigation__link,
 .contacts__link,
@@ -21,8 +22,7 @@ p {
   display: flex;
 }
 .container {
-  margin: auto;
-  width: 100%;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -63,13 +63,10 @@ p {
 }
 
 body {
-  margin: 0px auto;
-  background-color: var(--primary-white-color);
+  background-color: $primarywhitecolor;
   font-family: Roboto, sans-serif;
   color: $titletextcolor;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.71;
 }
 .visually-hidden {
   position: absolute;

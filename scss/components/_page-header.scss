@@ -35,8 +35,7 @@
 }
 
 .navigation {
-  margin-right: auto;
-  margin-left: auto; 
+  margin-left: 73px; 
 
   &__list{
   display: flex;
@@ -49,8 +48,8 @@
   
   &.navigation__link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: $titletextcolor;
     text-decoration: none;
     transition-duration: 250ms;
@@ -65,8 +64,7 @@
 }
 .header {
   border-bottom: 1px solid #ececec;
-  position: relative;
-  
+    
   &__container {
   display: flex;
   justify-content: center;
@@ -83,8 +81,8 @@
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-top: auto;
     margin-bottom: auto;
     transition-duration: 250ms;
@@ -107,9 +105,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  font-style: normal;
-  transition-duration: 250ms;
-
+  
   &__phone {
     width: 14px;
     height: 16px;
@@ -132,8 +128,8 @@
   &__link {
     color: $fonecolorcotrast;
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   &__link:hover,
   &__link:focus {
@@ -165,6 +161,10 @@
   .header__container{
     max-width: 768px;
   }
+  .header__logo{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
   .contacts {
     margin-left: auto;
     padding: 21px 0px;
@@ -184,8 +184,7 @@
   }
     .contacts {
     display: flex;
-    margin-right: 15px;
-    margin-left: auto;
+    margin-bottom: 0;
     padding: 32px 0px;
   }
     .contacts__link {
