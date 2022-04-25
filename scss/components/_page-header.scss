@@ -6,7 +6,6 @@
     margin-right: 0px;
   }
 }
-
 .navigation__link {
   display: block;
   color: $titletextcolor;
@@ -19,7 +18,6 @@
     color: $accentcolor;
     position: relative;
   }
-
   &--active:after {
     content: "";
     color: $accentcolor;
