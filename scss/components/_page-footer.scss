@@ -1,3 +1,4 @@
+
 .media {
   &__circle {
     width: 44px;
@@ -11,24 +12,26 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   &__circles {
     fill: $greyboarder;
     justify-content: center;
     align-items: center;
     display: flex;
+    
   }
+
   &__circle:hover,
   &__circle:focus,
   &__circle:active {
-    transition-duration: 250ms;
     background-color: $accentcolor;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   }
   &__link {
-    margin-bottom: 60px;
     width: 206px;
-    height: 44px;
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
@@ -77,16 +80,17 @@
 .footer {
    background-color: #2f303a;
     padding: 60px 0px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: baseline;
+
+    &__content{
+      margin-bottom: 60px;
+      text-align: center;
+    }
 
   &__logosp {
     color: $accentcolor;
   }
     &__logo {
-    display: flex;
-    justify-content: center;
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -94,13 +98,13 @@
     letter-spacing: 0.03em;
     color: $primarywhitecolor;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
   &__media {
-    display: inline;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    margin-bottom: 60px;
   }
   &__contact {
     margin-top: 9px;
@@ -111,8 +115,6 @@
     padding: 0;
   }
   &__join {
-    display: flex;
-    justify-content: center;
     font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
@@ -128,19 +130,29 @@
     font-style: normal;
     margin-top: 20px;
     text-align: center;
-    margin-bottom: 60px;
+  }
+  &__link {
+    display: block;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__link:hover,
+  &__link:focus {
+    color: $accentcolor;
+    
   }
 }
-  
+
 .footer-form {
   &__fild {
     max-width: 100%;
-    margin-bottom: 20px;
-  }
+}
 
   &__input-name {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -198,29 +210,28 @@
 }
 
 @media (min-width: 768px) {
+  .footer__content {
+    margin-right: 165px;
+  }
   .footer__tablet {
+    text-align: center;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: baseline;
   }
   .footer__media{
     margin: 0;
   }
-    .footer-form__input-frame {
-      width: 450px;
-    }
+  .footer-form__input-frame {
+    width: 450px;
+  }
 }
 
 @media  (min-width: 1200px) {
-  .footer__logo{
-    justify-content: unset;
-  }
+  
   .footer__join{
-    justify-content: unset;
+    text-align: left;
   }
-
   .footer__box {
     display: flex;
     margin-left: auto;
@@ -229,8 +240,10 @@
   }
   .footer__tablet{
     margin: 0;
+    text-align: left;
   }
   .footer__media{
+    text-align: left;
     margin-left: 70px;
   }
   .footer-form__fild{
@@ -249,7 +262,7 @@
     margin-left: 12px;
   }
   .footer-form__input-name{
-    justify-content: left;
+    text-align: left;
   }
   .footer__address {
     margin-bottom: unset;
@@ -258,4 +271,8 @@
   .media__link{
     margin-bottom: unset;
   }
+  .footer__content {
+    margin-right: 0px;
+  }
 }
+
