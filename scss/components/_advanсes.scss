@@ -17,11 +17,6 @@
     margin-left: auto;
     margin-right: auto;
   
-  &__box {
-
-  }
-// justify-content: space-between;
-
   &__item {
     width: 100%;
     margin-bottom: 30px;
@@ -63,10 +58,7 @@
    .advances__box {
     max-width: 768px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
     margin-top: calc(-1 * 30px);
     margin-left: calc(-1 * 30px);
   }

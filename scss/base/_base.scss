@@ -1,5 +1,4 @@
 // * {
-  
 //   box-sizing: border-box;
 // }
 h1,
@@ -26,7 +25,6 @@ p {
 }
 .title {
   font-weight: bold;
-  margin-top: 0px;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
@@ -39,7 +37,6 @@ p {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
- 
   &:nth-child(3) {
     padding-top: 0;
   }

@@ -291,7 +291,6 @@ p {
 
 .title {
   font-weight: bold;
-  margin-top: 0px;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
@@ -1026,13 +1025,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
     margin-top: calc(-1 * 30px);
     margin-left: calc(-1 * 30px);
   }
@@ -1068,9 +1062,6 @@ body {
 
 .team {
   background-color: #f5f4fa;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
 }
 
 .team__list {
@@ -2023,6 +2014,7 @@ body {
   }
   .footer__content {
     margin-right: 0px;
+    margin-bottom: 0px;
   }
 }
 
