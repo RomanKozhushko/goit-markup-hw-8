@@ -151,90 +151,6 @@
             Заказать услугу
           </button>
         </div>
-        <div data-modal class="hero__backdrop is-hidden">
-          <div class="modal">
-            <strong class="modal__head"
-              >Оставьте свои данные, мы вам перезвоним</strong
-            >
-            <form class="js-speaker-form">
-              <div class="modal__form-fild">
-                <label class="modal__input-name" for="name">Имя</label>
-                <input
-                  class="modal__input-frame"
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder=" "
-                />
-                <span class="vector-person"></span>
-              </div>
-              <div class="modal__form-fild">
-                <label class="modal__input-name" for="tel">Телефон</label>
-                <input
-                  class="modal__input-frame"
-                  type="text"
-                  name="tel"
-                  id="tel"
-                  placeholder=" "
-                />
-                <span class="vector-phone"></span>
-              </div>
-              <div class="modal__form-fild">
-                <label class="modal__input-name" for="email">Почта</label>
-                <input
-                  class="modal__input-frame"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder=" "
-                />
-                <span class="vector-email"></span>
-              </div>
-              <div class="modal__form-fild">
-                <label class="modal__input-name" for="comment"
-                  >Оставить коментарий</label
-                >
-                <textarea
-                  class="modal__input-comment"
-                  name="comment"
-                  id="comment"
-                  cols="30"
-                  rows="10"
-                  placeholder="Введите текст"
-                ></textarea>
-              </div>
-
-              <div class="check">
-                <input
-                  class="modal__check-input"
-                  type="checkbox"
-                  value="contract"
-                  name="contract"
-                  id="contract"
-                />
-                <span class="modal__check-box"></span>
-                <label class="modal__ok" for="contract"
-                  >Соглашаюсь с рассылкой и принимаю
-                  <span
-                    ><a href="" class="modal__ok-span"
-                      >Условия договора</a
-                    ></span
-                  >
-                </label>
-              </div>
-              <button class="pres modal__place-button" type="submit">
-                Отправить
-              </button>
-              <div>
-                <button
-                  data-modal-close
-                  class="modal__button modal__button-new"
-                  type="button"
-                ></button>
-              </div>
-            </form>
-          </div>
-        </div>
       </section>
       <section class="section">
         <div class="container advances">
@@ -291,12 +207,11 @@
           </ul>
         </div>
       </section>
-      <section class="section visually-hidden">
-        <div class="container">
+      <section class="section unset">
+        <div class="container ">
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="activity">
             <li class="activity__item">
-              <a href=""></a>
               <img
                 srcset="
                   ./images/activity/photo1.jpg    1x,
@@ -311,7 +226,6 @@
               </div>
             </li>
             <li class="activity__item">
-              <a href=""></a>
               <img
                 srcset="
                   ./images/activity/photo2.jpg    1x,
@@ -326,7 +240,6 @@
               </div>
             </li>
             <li class="activity__item">
-              <a href=""></a>
               <img
                 srcset="
                   ./images/activity/photo3.jpg    1x,
@@ -348,7 +261,6 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__member">
-              <a href=""></a>
               <img
                 srcset="./images/team/dem.jpg 1x, ./images/team/dem@2x.jpg 2x"
                 src="./images/team/dem.jpg"
@@ -673,6 +585,91 @@
         </form>
       </div>
     </footer>
+    <div data-modal class="hero__backdrop is-hidden">
+            <div class="modal">
+              <strong class="modal__head"
+                >Оставьте свои данные, мы вам перезвоним</strong
+              >
+              <form class="js-speaker-form">
+                <div class="modal__form-fild">
+                  <label class="modal__input-name" for="name">Имя</label>
+                  <input
+                    class="modal__input-frame"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                  />
+                  <span class="vector-person"></span>
+                </div>
+                <div class="modal__form-fild">
+                  <label class="modal__input-name" for="tel">Телефон</label>
+                  <input
+                    class="modal__input-frame"
+                    type="text"
+                    name="tel"
+                    id="tel"
+                    placeholder=" "
+                  />
+                  <span class="vector-phone"></span>
+                </div>
+                <div class="modal__form-fild">
+                  <label class="modal__input-name" for="email">Почта</label>
+                  <input
+                    class="modal__input-frame"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder=" "
+                  />
+                  <span class="vector-email"></span>
+                </div>
+                <div class="modal__form-fild">
+                  <label class="modal__input-name" for="comment"
+                    >Оставить коментарий</label
+                  >
+                  <textarea
+                    class="modal__input-comment"
+                    name="comment"
+                    id="comment"
+                    cols="30"
+                    rows="10"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </div>
+
+                <div class="check">
+                  <input
+                    class="modal__check-input"
+                    type="checkbox"
+                    value="contract"
+                    name="contract"
+                    id="contract"
+                  />
+                  <span class="modal__check-box"></span>
+                  <label class="modal__ok" for="contract"
+                    >Соглашаюсь с рассылкой и принимаю
+                    <span
+                      ><a href="" class="modal__ok-span"
+                        >Условия договора</a
+                      ></span
+                    >
+                  </label>
+                </div>
+                <button class="pres modal__place-button" type="submit">
+                  Отправить
+                </button>
+                <div>
+                  <button
+                    data-modal-close
+                    class="modal__button modal__button-new"
+                    type="button"
+                  ></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal-work.js"></script>

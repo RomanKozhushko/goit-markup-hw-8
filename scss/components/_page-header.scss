@@ -67,10 +67,6 @@
 
   &__container {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   &__logo {
@@ -226,7 +222,7 @@
   height: 100vh;
   padding: 40px;
   background-color: $primarywhitecolor;
-  z-index: 999;
+  z-index: 9;
   transform: translateX(150%);
   transition: transform 250ms ease-in-out;
 }
@@ -317,7 +313,7 @@
     display: block;
     margin-bottom: 32px;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 1.16;
     letter-spacing: 0.02em;
     color: $accentcolor;

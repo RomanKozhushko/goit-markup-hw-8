@@ -8,6 +8,7 @@
   margin-right: 15px;
   background-color: $primarywhitecolor;
   transition-duration: 250ms;
+  z-index: 10;
 
   .is-hidden & {
     transform: translate(-50%, -50%);
