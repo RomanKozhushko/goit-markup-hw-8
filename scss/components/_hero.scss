@@ -54,10 +54,8 @@
             margin-right: auto;
         }
     }
-    .modal {
-        max-width: 450px;
-    }
 }
+
 @media screen and (min-width: 769px) {
     .hero {
         padding: 200px 0;
@@ -81,9 +79,6 @@
             line-height: 1.36;     
             letter-spacing: 0.06em;
         }
-    }
-    .modal {
-        top: 30%;
     }
 }
 .hero__backdrop {
