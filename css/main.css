@@ -284,6 +284,13 @@ body {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
 h1,
 h2,
 h3,
@@ -2074,13 +2081,6 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 0px;
 }
 
 .board-portfilio {
