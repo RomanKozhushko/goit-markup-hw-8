@@ -302,12 +302,15 @@
   letter-spacing: 0.02em;
   color: $notitletextcolor;
   margin-bottom: 32px;
-}
 
-.mobile__navigation-link:focus,
-.mobile__navigation-link:active,
-.mobile__navigation-link:hover {
-  color: $accentcolor;
+  &--active{
+    color: $accentcolor;
+  }
+  &:focus,
+  &:active,
+  &:hover {
+    color: $accentcolor;
+  }
 }
 
 .mobile__contacts-link {
