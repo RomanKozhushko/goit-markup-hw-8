@@ -1,6 +1,5 @@
 .button-box {
   list-style: none;
-  // justify-content: center;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
@@ -40,36 +39,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
-
-.item__frame {
-  position: relative;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  padding: 20px 24px;
-}
-
-.item__name-project {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: $notitletextcolor;
-}
-
 .board-portfilio {
   max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.item__overlay {
+.overlay__item{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 354px;
+  height: 294px;
   transform: translatey(100%);
   transition: transform 250ms ease;
   background: rgba(33, 150, 243, 0.9);
@@ -84,8 +65,9 @@
   }
 }
 
+
 .item {
-  &__prof-project {
+    &__prof-project {
     font-family: Roboto;
     font-weight: normal;
     font-size: 16px;
@@ -102,6 +84,23 @@
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+  }
+  &__frame {
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    padding: 20px 24px;
+    z-index: 9999;
+  }
+  
+  &__name-project {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $notitletextcolor;
   }
 }
 
@@ -133,21 +132,24 @@
   }
 }
 
+.overlay{
+  position: relative;
+  overflow: hidden;
+}
+
 .card-set__item {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
+  
   transition-duration: 250ms;
 
-  &:focus .item__overlay,
-  &:hover .item__overlay,
-  &:active .item__overlay {
+  &:focus .overlay__item,
+  &:hover .overlay__item,
+  &:active .overlay__item {
     transform: translatey(0);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-
 }
 
 .card-set>li:hover,
